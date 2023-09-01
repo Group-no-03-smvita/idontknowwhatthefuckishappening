@@ -24,7 +24,7 @@ jobs:
       - name: Deploy CloudFormation stack
         run: |
           aws cloudformation deploy \
-            --stack-name vishal2 \
+            --stack-name stack1 \
             --template-file .github/workflows/cft.yml \
             --capabilities CAPABILITY_NAMED_IAM
         env:
